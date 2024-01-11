@@ -8,8 +8,7 @@ body {
 }
 
 body {
-    /* background: linear-gradient(to right, rgba(74, 78, 105, 1), rgba(34, 34, 59, 1)); */
-    /* Gradient para el body en formato rgba */
+
     background: linear-gradient(to right, rgba(166, 162, 162, 1), rgba(132, 117, 119, 1));
 }
 
@@ -18,13 +17,14 @@ body {
     /* Quitar el borde */
     width: 500px;
     height: 500px;
-    margin: auto;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* background: linear-gradient(to right, rgba(154, 140, 152, 1), rgb(201, 173, 167, 1)); */
-    /* Gradient para el div */
+
 
     background: linear-gradient(to right, rgba(207, 210, 205, 1), rgb(166, 162, 162, 1));
 
@@ -85,9 +85,24 @@ button:hover {
 }
 
 .tec-leng {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     margin-top: -2%;
     justify-content: center;
+}
+
+.tec-leng-1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.tec-leng-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -20px;
+    margin-bottom: 15px;
 }
 
 .tec-leng p {
@@ -96,6 +111,7 @@ button:hover {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 0 transparent;
+    margin: 15px;
 
     /* Transición para la propiedad box-shadow */
     transition: box-shadow 0.15s ease-out, color 0.15s ease-out, background-color 0.15s ease-out;
@@ -194,10 +210,29 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     .general-container {
         width: 70%;
         height: 70%;
+    }
+
+    button {
+        margin-left: 25%;
+    }
+
+    .tec-leng {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .tec-leng-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .tec-leng-2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
     }
 
 }
