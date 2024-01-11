@@ -14,7 +14,6 @@ body {
 }
 
 .general-container {
-
     border: none;
     /* Quitar el borde */
     width: 500px;
@@ -195,4 +194,10 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .general-container {
+        width: 70%;
+        height: 70%;
+    }
+
+}
