@@ -44,14 +44,14 @@ body {
     background-position: center;
     /* position: absolute; */
 
-    transform: translate(0%, 10%);
+    transform: translate(0%, 5%);
 
     justify-content: center;
 }
 
 h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 }
@@ -85,24 +85,24 @@ button:hover {
 }
 
 .tec-leng {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin-top: -2%;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -40px;
 }
 
 .tec-leng-1 {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
 
 }
 
 .tec-leng-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     margin-top: -20px;
-    margin-bottom: 15px;
+    height: 65px;
+    margin-bottom: 25px;
 }
 
 .tec-leng p {
@@ -161,6 +161,14 @@ button:hover {
     cursor: default;
 }
 
+.button-php:hover {
+    background-color: #b14ad4;
+    color: white;
+    border-color: #b14ad4;
+    box-shadow: 0 0 10px 0px rgba(177, 74, 212, 0.8);
+    cursor: default;
+}
+
 .iconos {
     display: flex;
     justify-content: center;
@@ -213,26 +221,16 @@ p {
 @media screen and (max-width: 550px) {
     .general-container {
         width: 70%;
-        height: 70%;
+        height: 75%;
     }
 
     button {
-        margin-left: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 30%;
     }
 
-    .tec-leng {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
 
-    .tec-leng-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
-    .tec-leng-2 {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr 2fr;
-    }
 
 }
