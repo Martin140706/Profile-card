@@ -244,3 +244,79 @@ p {
         margin-left: 25%;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .general-container {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .general-container {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .general-container {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .general-container {
+        height: 68%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .general-container {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .general-container {
+        height: 75%;
+        padding: 10px;
+    }
+
+    button {
+        margin-left: 20%;
+    }
+
+    .tec-leng {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .general-container {
+        width: 75%;
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .general-container {
+        height: 75%;
+    }
+
+    button {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 880px) {
+    .general-container {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .general-container {
+        width: 84%;
+        height: 105%;
+    }
+}
