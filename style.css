@@ -229,8 +229,19 @@ p {
         margin-right: auto;
         margin-left: 30%;
     }
+}
 
 
+@media screen and (max-width: 450px) {
 
+    .general-container {
+        width: 70%;
+        height: 60%;
+    }
 
+    button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 25%;
+    }
 }
