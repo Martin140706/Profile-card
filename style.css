@@ -231,6 +231,12 @@ p {
     }
 }
 
+@media screen and (max-width: 540px) and (max-height: 960px) {
+    .general-container {
+        height: 90%;
+    }
+}
+
 @media screen and (max-width: 450px) {
 
     .general-container {
@@ -298,6 +304,12 @@ p {
     }
 }
 
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .general-container {
+        height: 72%;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .general-container {
         height: 75%;
@@ -309,6 +321,18 @@ p {
 }
 
 @media screen and (max-width: 360px) and (max-height: 880px) {
+    .general-container {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 800px) {
+    .general-container {
+        height: 68%;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 780px) {
     .general-container {
         height: 80%;
     }
